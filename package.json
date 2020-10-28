@@ -6,10 +6,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "http://mdshields7/github.io/mshields-arch",
   "scripts": {
     "watch": "webpack --watch",
     "dev": "cross-env PORT=4000 webpack-dev-server --open",
-    "build": "webpack --env.production"
+    "build": "webpack --env.production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -20,6 +23,7 @@
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.2.2",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.4.1",
     "sass": "^1.26.10",
     "sass-loader": "^10.0.1",
