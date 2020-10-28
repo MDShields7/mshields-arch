@@ -6,7 +6,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "http://mdshields7/github.io/mshields-arch",
+  "homepage": "http://MDShields7/github.io/mshields-arch",
   "scripts": {
     "watch": "webpack --watch",
     "dev": "cross-env PORT=4000 webpack-dev-server --open",
