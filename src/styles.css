@@ -1,0 +1,90 @@
+.space-between {
+    justify-content: space-between;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.center {
+    justify-content: center;
+}
+.proj-card {
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+    /* margin: 1.66%; */
+}
+.proj-card2-1 {
+    width: 48%;
+    border:none;
+    border-radius: 10px;
+    margin: 1%;
+}
+.proj-card3-1 {
+    width: 32%;
+    border:none;
+    border-radius: 10px;
+    margin: 0.5%;
+}
+.proj-card3-2 {
+    width: 64%;
+    border:none;
+    border-radius: 10px;
+    margin: 2;
+}
+.proj-img {
+    display: block;
+    width:100%;
+    height: auto;
+}
+a.contact {
+    margin: 0% 10% 10% 10%;
+}
+.inner-row {
+    display: flex;
+    flex-direction: row;
+}
+.m-w {
+    margin-left:10px;
+    margin-right:10px;
+}
+.m-w :first-child {
+    margin-left:0px;
+    margin-right:10px;
+}
+.m-b {
+    margin-bottom: 20px;
+}
+.m-b3 {
+    margin-bottom: 60px;
+}
+.m-t {
+    margin-top: 20px;
+}
+.m-t2{
+    margin-top: 40px;
+}
+.m-t4{
+    margin-top: 80px;
+}
+.navbar-color {
+    background-color: #033990;
+}
+.navbar-a {
+    color: white;
+}
+.myModal {
+    cursor: pointer;
+}
+.rModal {
+    /* padding-left: 10%;
+    padding-right: 10% */
+    padding: 5% 15% 0 15%;
+}
+.xBtn {
+    position: fixed;
+    left:60px;
+    top:60px
+}
+iframe {
+    border: none;
+}
